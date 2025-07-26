@@ -65,7 +65,7 @@ const sessionOptions = {
 };
 
 app.get("/", (req, res) => {
-    res.send("Root");
+    res.render("index.ejs");
 });
 
 
